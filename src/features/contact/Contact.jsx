@@ -9,7 +9,7 @@ import toast, { Toaster } from 'react-hot-toast';
 // 1. バリデーションルールの定義
 const schema = z.object({
   user_name: z.string().min(2, "名前は2文字以上で入力してください"),
-  user_email: z.string().email("正しいメールアドレス形式で入力してください"),
+  user_email: z.email("正しいメールアドレス形式で入力してください"),
   message: z.string().min(10, "メッセージは10文字以上で入力してください"),
 });
 
