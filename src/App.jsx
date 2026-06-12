@@ -6,6 +6,7 @@ import { About } from './features/about/About';
 import { Skills } from './features/skills/Skills';
 // import { Products } from './features/products/Products';
 import { Contact } from './features/contact/Contact';
+import { Footer } from './components/layout/Footer';
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         {/* <Products /> */}
         <Contact />
       </main>
+      <Footer />
     </div>
   )
 }

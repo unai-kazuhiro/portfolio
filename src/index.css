@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@layer base {
+    html {
+      @apply scroll-smooth;
+    }
+  }
+
+html {
+    scrollbar-width: none; /* Firefox用 */
+  }
+  html::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge用 */
+  }
