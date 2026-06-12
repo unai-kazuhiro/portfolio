@@ -34,7 +34,7 @@ export const Contact = () => {
   };
 
   return (
-    <section id="CONTACT" className="py-24 px-6 md:px-12 bg-slate-900/30">
+    <section id="CONTACT" className="py-24 px-6 md:px-12 bg-slate-900/30 transform-gpu will-change-transform">
       <Toaster position="bottom-right" />
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-16 tracking-wider">

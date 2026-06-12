@@ -63,7 +63,7 @@ const floatingVariants = {
 };
 
 export const Skills = () => (
-  <section id="SKILLS" className="py-24 px-6 md:px-12 bg-slate-900/30">
+  <section id="SKILLS" className="py-24 px-6 md:px-12 bg-slate-900/30 transform-gpu will-change-transform">
     <div className="max-w-7xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-16 tracking-wider">
         MY <span className="text-cyan-400">SKILLS</span>

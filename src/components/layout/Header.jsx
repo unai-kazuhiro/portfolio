@@ -102,7 +102,7 @@ export const Header = () => {
     return (
         <>
             <motion.header 
-                className="fixed top-0 left-0 w-full z-50 backdrop-blur-md border-b border-slate-800/50 transition-shadow"
+                className="fixed top-0 left-0 w-full z-50 backdrop-blur-md border-b border-slate-800/50 transition-shadow transform-gpu will-change-transform"
             >
                 <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between md:justify-center md:gap-12 relative">
                 

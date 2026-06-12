@@ -38,7 +38,7 @@ export const Hero = () => {
 
     return (
         // min-h-screen: 画面の高さを最低限確保, pt-16: ヘッダー分の余白を下げる
-        <section id="HOME" className="relative w-full min-h-screen flex flex-col items-center justify-center pt-16 overflow-hidden px-4">
+        <section id="HOME" className="relative w-full min-h-screen flex flex-col items-center justify-center pt-16 overflow-hidden px-4 transform-gpu will-change-transform">
         
         {/* 背景コンポーネント */}
         <div className="absolute inset-0 z-0">

@@ -45,7 +45,7 @@ const textVariants = {
 
 export const About = () => (
   // overflow-hidden を追加し、左右からスライドしてくる要素で画面が横揺れするのを防ぎます
-  <section id="ABOUT" className="relative py-24 px-6 md:px-12 max-w-7xl mx-auto overflow-hidden">
+  <section id="ABOUT" className="relative py-24 px-6 md:px-12 max-w-7xl mx-auto overflow-hidden transform-gpu will-change-transform">
     
     <div className="absolute inset-0 z-0"></div>
 

@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { containerVariants, headingVariants, imageVariants, textVariants } from "../../components/elements/Variants";
 
 export const Products = () => (
-    <section id="PRODUCTS" className="relative py-24 px-6 md:px-12 max-w-7xl mx-auto">
+    <section id="PRODUCTS" className="relative py-24 px-6 md:px-12 max-w-7xl mx-auto transform-gpu will-change-transform">
 
       <motion.div
         variants={containerVariants}

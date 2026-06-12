@@ -9,7 +9,7 @@ export const MainBackground = () => {
   const auroraY2 = useTransform(scrollYProgress, [0, 1], [0, 400]);
 
   return (
-    <div className="fixed inset-0 z-[-1] overflow-hidden bg-slate-950">
+    <div className="fixed inset-0 z-[-1] overflow-hidden bg-slate-950 transform-gpu will-change-transform">
       
       {/* 1. 青系オーロラ */}
       <motion.div
