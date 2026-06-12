@@ -1,5 +1,7 @@
 import { motion } from "motion/react";
 
+import myPhoto from '../../../src/assets/img/about.PNG';
+
 // 1. 親コンテナ用：子要素を順番に表示する（スタッガー）
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -69,7 +71,7 @@ export const About = () => (
         <motion.div variants={imageVariants} className="md:col-span-5 flex justify-center">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border border-slate-700 shadow-[0_0_30px_rgba(34,211,238,0.15)]">
             <motion.img 
-              src="src/assets/img/about.PNG" 
+              src={myPhoto}
               alt="Kazuhiro Unai" 
               className="w-full h-full object-cover" 
               whileHover={{ scale: 1.05 }} // ホバー時に画像を少し拡大
