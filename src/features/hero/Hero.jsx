@@ -95,7 +95,7 @@ export const Hero = () => {
             {isModalOpen && (
                 <div
                 // bg-stone-900/10 で極薄の影にし、backdrop-blur-sm で背景を優しくすりガラス状に透かせます
-                className="fixed inset-0 bg-stone-900/10 backdrop-blur-sm flex items-center justify-center z-50 transition-opacity duration-300"
+                className="fixed inset-0 bg-stone-900/40 flex items-center justify-center z-50 transition-opacity duration-300"
                 onClick={() => setIsModalOpen(false)}
                 >
                 {/* ポップアップのボックス：白をベースに、細い線とマイルドな角丸で無垢な印象に */}
